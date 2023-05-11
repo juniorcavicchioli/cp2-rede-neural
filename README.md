@@ -10,7 +10,7 @@ Projeto desenvolvido para avaliação da disciplina Disruptive Architectures - I
 
 ### Resumo
 
-Foi-nos fornecido um algoritmo que gera, baseado no RM do aluno, duas listas com a intenção dos conjuntos de dados de cada um serem únicos. Adicionei a linha de código `np.random.seed(1)` para facilitar os testes fazendo o algoritmo se basear sempre na mesma seed para gerar os valores aleatórios. É importante ressaltar que, apesar da semente, os conjuntos gerados com meu RM continuam únicos.
+Foi-nos fornecido um algoritmo que gera, baseado no RM do aluno, duas listas com a intenção dos conjuntos de dados de cada um serem únicos. Adicionei a linha de código `np.random.seed(1)` para facilitar os testes fazendo o algoritmo se basear sempre na mesma seed para gerar os valores aleatórios. É importante ressaltar que, apesar da semente, os conjuntos gerados com meu RM continuam únicos. Também alterei o algoritmo para que não seja necessário usar meu RM mas os dados continuem o mesmo por motivos de segurança.
 
 O objetivo do projeto se resume a criar um modelo de rede neural que consiga predizer a qual conjunto de dados um valor pertence. Naturalmente, percebi que o problema pode ser resolvido com uma predição binaria: pertence ou não pertence.
 
